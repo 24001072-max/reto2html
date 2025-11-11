@@ -1,0 +1,78 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Caja blanca al centro */
+#contenedor-principal {
+  width: 80%;
+  max-width: 1000px;
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #003366;
+}
+
+/* Párrafo inicial */
+.intro {
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Texto resaltado con span */
+.resaltado {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+/* Lista con fondo */
+#razones ul {
+  background: #e6f0ff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #cccccc;
+}
+
+th {
+  background: #003366;
+  color: #ffffff;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+}
+
+/* Imagen */
+#imagen img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+  margin-top: 25px;
+  text-align: center;
+  color: #666666;
+  font-size: 0.9rem;
+}
